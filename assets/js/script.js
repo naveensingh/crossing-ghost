@@ -21,7 +21,7 @@
   });
 
   $('.post-content').fitVids();
-  $('pre code[class]').each(function (i, block) {
+  $('pre code').each(function (i, block) {
     hljs.highlightBlock(block);
   });
 }(jQuery, Crossing.config));
