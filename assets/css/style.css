@@ -225,24 +225,24 @@ th {
 
 body {
   background-color: #fbfbfb;
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 150px);
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 150px);
+  background-image: -webkit-linear-gradient(top,rgba(255,255,255,0.5),rgba(255,255,255,0) 150px);
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0.5),rgba(255,255,255,0) 150px);
   background-repeat: no-repeat;
   color: #333;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 28px;
+  line-height: 1.7;
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 768px) {
   body {
     font-size: 16px;
-    line-height: 30px;
   }
 }
 
@@ -318,7 +318,6 @@ code {
 
 pre {
   font-size: 14px;
-  line-height: 21px;
   padding: 7px 20px;
   word-break: normal;
   word-wrap: normal;
@@ -327,7 +326,6 @@ pre {
 @media (min-width: 768px) {
   pre {
     font-size: 16px;
-    line-height: 25px;
     padding-bottom: 15px;
     padding-top: 15px;
   }
@@ -449,15 +447,9 @@ main > *:last-child {
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.05));
   color: #aaa;
   font-size: 14px;
-  line-height: 21px;
   position: relative;
 }
 
-@media (min-width: 768px) {
-  .site-footer {
-    line-height: 25px;
-  }
-}
 
 .site-footer:after {
   background-color: rgba(0, 0, 0, 0.03);
@@ -591,14 +583,12 @@ main {
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
-  line-height: 21px;
   padding: 6px 0;
   text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
   .site-nav-list a {
-    line-height: 20px;
     margin: 0 20px 0 0;
     padding: 19px 0;
   }
@@ -696,21 +686,18 @@ main {
 
 .post-title {
   font-size: 30px;
-  line-height: 35px;
   margin: 0 0 7px;
 }
 
 @media (min-width: 768px) {
   .post-title {
     font-size: 40px;
-    line-height: 45px;
     margin: 0 0 5px;
   }
 }
 
 .post-list .post-title {
   font-size: 20px;
-  line-height: inherit;
   margin: 0;
 }
 
@@ -741,49 +728,41 @@ main {
 
 .post-content h1 {
   font-size: 30px;
-  line-height: 35px;
 }
 
 @media (min-width: 768px) {
   .post-content h1 {
     font-size: 35px;
-    line-height: 40px;
   }
 }
 
 .post-content h2 {
   font-size: 25px;
-  line-height: 28px;
 }
 
 @media (min-width: 768px) {
   .post-content h2 {
     font-size: 30px;
-    line-height: 35px;
   }
 }
 
 .post-content h3 {
   font-size: 21px;
-  line-height: 28px;
 }
 
 @media (min-width: 768px) {
   .post-content h3 {
     font-size: 25px;
-    line-height: 30px;
   }
 }
 
 .post-content h4 {
   font-size: 18px;
-  line-height: 28px;
 }
 
 @media (min-width: 768px) {
   .post-content h4 {
     font-size: 20px;
-    line-height: 30px;
   }
 }
 
@@ -805,7 +784,6 @@ main {
 .post-content h6 {
   font-size: 14px;
   letter-spacing: 1px;
-  line-height: 21px;
   text-transform: uppercase;
 }
 
@@ -813,7 +791,6 @@ main {
   .post-content h5,
   .post-content h6 {
     font-size: 16px;
-    line-height: 25px;
     text-transform: uppercase;
   }
 }
@@ -871,13 +848,11 @@ iframe,
 .footnotes {
   font-size: 14px;
   font-style: italic;
-  line-height: 21px;
 }
 
 @media (min-width: 768px) {
   .footnotes {
     font-size: 16px;
-    line-height: 25px;
   }
 }
 
@@ -892,13 +867,11 @@ iframe,
 .share {
   color: #ccc;
   font-size: 14px;
-  line-height: 21px;
 }
 
 @media (min-width: 768px) {
   .share {
     font-size: 16px;
-    line-height: 25px;
   }
 }
 
@@ -960,14 +933,12 @@ iframe,
 .post-author-name,
 .post-author-bio {
   font-size: 14px;
-  line-height: 21px;
 }
 
 @media (min-width: 768px) {
   .post-author-name,
   .post-author-bio {
     font-size: 16px;
-    line-height: 25px;
   }
 }
 
@@ -1098,14 +1069,12 @@ iframe,
 
 .author-name {
   font-size: 35px;
-  line-height: 40px;
   margin: 0 0 7px;
 }
 
 @media (min-width: 768px) {
   .author-name {
     font-size: 40px;
-    line-height: 45px;
     margin-bottom: 5px;
   }
 }
@@ -1129,14 +1098,12 @@ iframe,
 .archive-title {
   color: #777;
   font-size: 30px;
-  line-height: 35px;
   margin: 0 0 7px;
 }
 
 @media (min-width: 768px) {
   .archive-title {
     font-size: 40px;
-    line-height: 45px;
     margin-bottom: 5px;
   }
 }
